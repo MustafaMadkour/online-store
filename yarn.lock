@@ -2584,6 +2584,14 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hbs-utils@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/hbs-utils/-/hbs-utils-0.0.4.tgz#f02babf90ca12659427a831f6fc6ed09bd955a92"
+  integrity sha512-KOmj0fvhWXtKcyi4jFKN1VVmxVqHXCQ2PnaLmX0oY2ZCJTsZ5NZcpE5vqTq1aJiF/6AyQl25gSrwpXZS1aWh/Q==
+  dependencies:
+    node-watch "^0.4.1"
+    walk "^2.3.9"
+
 hbs@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/hbs/-/hbs-4.2.0.tgz#10e40dcc24d5be7342df9636316896617542a32b"
@@ -3582,6 +3590,11 @@ node-releases@^2.0.8:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.10.tgz#c311ebae3b6a148c89b1813fd7c4d3c024ef537f"
   integrity sha512-5GFldHPXVG/YZmFzJvKK2zDSzPKhEp0+ZR5SVaoSag9fsL5YgHbUHDfnG5494ISANDcK4KwPXAx2xqVEydmd7w==
+
+node-watch@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.4.1.tgz#d0947d54a995f91135db4056b68722c6d7c322ad"
+  integrity sha512-/itaTDBkq9vnxRfkWq0fDPkFt856BTyILYMVjSdYpSVYDw0HYAvaoDEVrMSlU1ITtdvopTtNfEDBeHyu1d2kcA==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
@@ -4616,7 +4629,7 @@ vary@^1, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-walk@2.3.15:
+walk@2.3.15, walk@^2.3.9:
   version "2.3.15"
   resolved "https://registry.yarnpkg.com/walk/-/walk-2.3.15.tgz#1b4611e959d656426bc521e2da5db3acecae2424"
   integrity sha512-4eRTBZljBfIISK1Vnt69Gvr2w/wc3U6Vtrw7qiN5iqYJPH7LElcYh/iU4XWhdCy2dZqv1ToMyYlybDylfG/5Vg==
